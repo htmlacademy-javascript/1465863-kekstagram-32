@@ -6,10 +6,13 @@ function checkStringLength(inputString, maxLength) {
   return false;
 }
 
+<<<<<<< HEAD
+=======
 console.log(checkStringLength('проверяемая строка', 20));
 console.log(checkStringLength('проверяемая строка', 18));
 console.log(checkStringLength('проверяемая строка', 10));
 
+>>>>>>> upstream/master
 // Функция проверяет является ли строка палиндромом
 
 function isPalindrome(inputString) {
@@ -25,10 +28,13 @@ function isPalindrome(inputString) {
   return normalizedString === reversedString;
 }
 
+<<<<<<< HEAD
+=======
 console.log(isPalindrome('топот'));
 console.log(isPalindrome('ДовОд'));
 console.log(isPalindrome('Кекс'));
 console.log(isPalindrome('Лёша на полке клопа нашёл '));
+>>>>>>> upstream/master
 
 // Функция извлекает числа из строки
 function extractDigits(input) {
@@ -53,6 +59,8 @@ function extractDigits(input) {
   return NaN;
 }
 
+<<<<<<< HEAD
+=======
 console.log(extractDigits('2023 год'));
 console.log(extractDigits('ECMAScript 2022'));
 console.log(extractDigits('1 кефир, 0.5 батона'));
@@ -62,3 +70,4 @@ console.log(extractDigits('а я томат'));
 console.log(extractDigits(2023));
 console.log(extractDigits(-1));
 console.log(extractDigits(1.5));
+>>>>>>> upstream/master
