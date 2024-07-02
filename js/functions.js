@@ -6,10 +6,6 @@ function checkStringLength(inputString, maxLength) {
   return false;
 }
 
-console.log(checkStringLength('проверяемая строка', 20));
-console.log(checkStringLength('проверяемая строка', 18));
-console.log(checkStringLength('проверяемая строка', 10));
-
 // Функция проверяет является ли строка палиндромом
 
 function isPalindrome(inputString) {
@@ -24,11 +20,6 @@ function isPalindrome(inputString) {
 
   return normalizedString === reversedString;
 }
-
-console.log(isPalindrome('топот'));
-console.log(isPalindrome('ДовОд'));
-console.log(isPalindrome('Кекс'));
-console.log(isPalindrome('Лёша на полке клопа нашёл '));
 
 // Функция извлекает числа из строки
 function extractDigits(input) {
@@ -53,12 +44,4 @@ function extractDigits(input) {
   return NaN;
 }
 
-console.log(extractDigits('2023 год'));
-console.log(extractDigits('ECMAScript 2022'));
-console.log(extractDigits('1 кефир, 0.5 батона'));
-console.log(extractDigits('агент 007'));
-console.log(extractDigits('а я томат'));
 
-console.log(extractDigits(2023));
-console.log(extractDigits(-1));
-console.log(extractDigits(1.5));
